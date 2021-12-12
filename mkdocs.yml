@@ -1,5 +1,7 @@
 site_name: Coffeecord
 site_url: https://wiki.coffeecord.deftu.xyz/
+site_description: Wiki for Coffeecord - A Discord API wrapper for the JVM.
+site_author: Deftu
 
 copyright: Copyright 2022 Matthew Vaughan
 
