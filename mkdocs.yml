@@ -8,7 +8,10 @@ repo_url: https://github.com/Deftu/Coffeecord
 
 nav:
     - Home: index.md
-    - Getting started: getting-started.md
+    - Getting Started:
+        - Languages: 'getting-started/languages.md'
+        - Java: 'getting-started/java.md'
+        - Kotlin: 'getting-started/kotlin.md'
 
 theme:
     name: material
