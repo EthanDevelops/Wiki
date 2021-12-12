@@ -1,4 +1,4 @@
-## Java
+# Java
 Using the example below, we can create a `DiscordClient` so our bot can come online, though without functionality.
 ```java
 package com.example.bot;

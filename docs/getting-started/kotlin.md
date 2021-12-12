@@ -1,4 +1,4 @@
-## Kotlin
+# Kotlin
 The concept for making a `DiscordClient` is very similar using Kotlin, though we can take advantage of the base DSL.
 ```kotlin
 package com.example.bot
