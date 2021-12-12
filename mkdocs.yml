@@ -16,6 +16,8 @@ theme:
         - navigation.instant
         - navigation.tabs
         - toc.integrate
+    favicon: img/logo.png
+    logo: img/logo.png
     icon:
         repo: fontawesome/brands/github
     palette:
