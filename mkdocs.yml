@@ -43,3 +43,5 @@ extra:
     social:
         - icon: fontawesome/brands/discord
           link: https://discord.gg/aTa52taGHw
+        - icon: fontawesome/brands/github
+          link: https://github.com/Deftu/Coffeecord-Docs
