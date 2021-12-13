@@ -6,14 +6,19 @@ site_author: Deftu
 copyright: Copyright 2022 Matthew Vaughan
 
 repo_name: Coffeecord
-repo_url: https://github.com/Deftu/Coffeecord
+repo_url: https://github.com/Coffeecord/Coffeecord
+edit_uri: ../Wiki/edit/main/docs/
 
 nav:
     - Home: index.md
-    - Getting Started:
-        - Languages: 'getting-started/languages.md'
-        - Java: 'getting-started/java.md'
-        - Kotlin: 'getting-started/kotlin.md'
+    - Information:
+        - Dependencies: 'information/dependencies.md'
+    - Getting started:
+        - Download: 'getting-started/download.md'
+        - Getting help: 'getting-started/getting-help.md'
+        - Creating a client: 'getting-started/creating-a-client.md'
+    - Kotlin DSL:
+        - Base: 'kotlin-dsl/base.md'
 
 theme:
     name: material
@@ -39,9 +44,26 @@ theme:
             icon: material/weather-sunny
             name: Switch to light mode
 
+markdown_extensions:
+  - admonition
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+
 extra:
     social:
         - icon: fontawesome/brands/discord
           link: https://discord.gg/aTa52taGHw
         - icon: fontawesome/brands/github
-          link: https://github.com/Deftu/Coffeecord-Docs
+          link: https://github.com/Coffeecord/Wiki
