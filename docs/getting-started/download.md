@@ -10,12 +10,6 @@ You can find the latest version of Coffeecord [here](https://github.com/Coffeeco
 
 === "Gradle"
     ```gradle linenums="1"
-    repositories {
-        maven {
-            url = "https://s01.oss.sonatype.org/repositories/releases/"
-        }
-    }
-
     dependencies {
         implementation("xyz.deftu.coffeecord:Coffeecord:VERSION")
     }
@@ -23,14 +17,6 @@ You can find the latest version of Coffeecord [here](https://github.com/Coffeeco
 
 === "Maven"
     ```maven linenums="1"
-    <repositories>
-        <repository>
-            <id>maven-central</id>
-            <name>MavenCentral</name>
-            <url>https://s01.oss.sonatype.org/repositories/releases/</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
             <groupId>xyz.deftu.coffeecord</groupId>
@@ -43,4 +29,9 @@ You can find the latest version of Coffeecord [here](https://github.com/Coffeeco
 === "SBT"
     ```sbt linenums="1"
     libraryDependencies += "xyz.deftu.coffeecord" % "Coffeecord" % "VERSION"
+    ```
+
+=== "Leiningen"
+    ```leiningen linenums="1"
+    :dependencies [[xyz.deftu.coffeecord/Coffeecord "VERSION"]]
     ```
